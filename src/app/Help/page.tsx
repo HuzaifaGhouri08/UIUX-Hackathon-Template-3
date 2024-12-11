@@ -25,7 +25,7 @@ export default function Help() {
                 />
             </div>
 
-            <div className="grid gap-8 mt-6 lg:grid-cols-[3fr,1fr] xl:grid-cols-[4fr,1fr]">
+            <div className="grid gap-8 ml-4 mt-6 lg:grid-cols-[3fr,1fr] xl:grid-cols-[4fr,1fr]">
                 {/* FAQ Section */}
                 <div className="flex-1">
                     <h1 className="text-[24px] font-medium text-center lg:text-start">
