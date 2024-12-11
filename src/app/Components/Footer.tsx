@@ -7,9 +7,9 @@ import tweet from "../../../Assets/tweet.png"
 
 export default function Footer(){
     return(
-        <div className="bg-black p-8 mt-10 ">
+        <div className="bg-black text-center p-8 mt-10 ">
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 ">
-             <ul className="text-white text-[14px] justify-center flex flex-col gap-6 xl:ml-4 ">
+             <ul className="text-white mb-2 text-[14px] justify-center flex flex-col gap-6 xl:ml-4 ">
                     <li>FIND A STORE</li>
                     <li>BECOME A MEMBER</li>
                     <li>SIGN UP FOR EMAIL</li>
