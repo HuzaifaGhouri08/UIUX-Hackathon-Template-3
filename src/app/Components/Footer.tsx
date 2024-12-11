@@ -12,9 +12,9 @@ export default function Footer(){
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
               {/* column 1 */}
-              <h3 className="mb-4 text-white text-lg font-semibold">FIND A STORE</h3>
-              <ul>
-                <li><a href="#" className="hover:underline leading-6">BECOME A MEMBER</a></li>
+              <h3 className="mb-4 text-white text-base font-semibold">FIND A STORE</h3>
+              <ul className="text-sm">
+                <li><a href="#" className="hover:underlineleading-6">BECOME A MEMBER</a></li>
                 <li><a href="#" className="hover:underline leading-6">SIGN UP FOR EMAIL</a></li>
                 <li><a href="#" className="hover:underline leading-6">Send Us Feedback</a></li>
                 <li><a href="#" className="hover:underline leading-6">STUDENT DISCOUNTS</a></li>
@@ -23,8 +23,8 @@ export default function Footer(){
             <div>
   
               {/* Column 2 */}
-              <h3 className="mb-4 text-white text-lg font-semibold">GET HELP</h3>
-              <ul className="text-gray-400">
+              <h3 className="mb-4 text-white text-base font-semibold">GET HELP</h3>
+              <ul className="text-gray-400 text-sm">
                 <li><a href="#" className="hover:underline leading-6">Order Status</a></li>
                 <li><a href="#" className="hover:underline leading-6">Delivery</a></li>
                 <li><a href="#" className="hover:underline leading-6">Returns</a></li>
@@ -36,8 +36,8 @@ export default function Footer(){
             <div>
   
               {/* Column 3 */}
-              <h3 className="mb-4 text-white text-lg font-semibold">ABOUT NIKE</h3>
-              <ul className="text-gray-400">
+              <h3 className="mb-4 text-white text-base font-semibold">ABOUT NIKE</h3>
+              <ul className="text-gray-400 text-sm">
                 <li><a href="#" className="hover:underline leading-6">News</a></li>
                 <li><a href="#" className="hover:underline leading-6">Careers</a></li>
                 <li><a href="#" className="hover:underline leading-6">Investors</a></li>
@@ -58,7 +58,7 @@ export default function Footer(){
   
           {/* Bottom */}
           <div className="mt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-          <div className="flex justify-center items-center mt-4">
+          <div className="flex justify-center items-center mt-2">
             <Image src={location} alt="pak" className="w-6 h-5"/>
             <p className="text-white text-[14px]">Pakistan</p>
         </div>
