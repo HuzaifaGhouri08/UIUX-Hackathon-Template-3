@@ -16,14 +16,13 @@ export default function Header() {
      <Image src={logo1} alt="logo" className="w-6 sm:w-8" /> 
     </div>
    
-    
 <div className="hidden sm:flex w-[200px] h-6 bg-white justify-center items-center xl:ml-[20%] lg:ml-[10%] sm:ml-[10%]">
       <p className="text-black text-sm sm:text-base font-small">
         Skip to main content
       </p>
     </div>
-    
-    <nav className="text-xs sm:text-sm lg:text-base space-x-2 sm:space-x-4 text-black font-medium flex items-center">
+
+    <nav className="text-xs sm:text-sm lg:text-base space-x-2 sm:space-x-2 text-black font-medium flex items-center">
       <Link href="/Find" className="hover:underline">
         Find a Store
       </Link>
