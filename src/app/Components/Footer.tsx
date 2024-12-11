@@ -62,7 +62,7 @@ export default function Footer(){
             <Image src={location} alt="pak" className="w-6 h-5"/>
             <p className="text-white text-[14px]">Pakistan</p>
         </div>
-            <div className="mb-4 md:mb-0">&copy; 2024 Huzaifa Ghouri. All Rights Reserved</div>
+            <div className="mb-4 mt-2 md:mb-0">&copy; 2025 Huzaifa Ghouri. All Rights Reserved</div>
             <div className="flex flex-wrap space-x-4 justify-center md:justify-end">
               <a href="#" className="hover:underline">Guides</a>
               <a href="#" className="hover:underline">Terms of Sale</a>
