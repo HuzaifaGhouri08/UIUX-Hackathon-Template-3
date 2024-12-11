@@ -5,6 +5,7 @@ import insta from "../../../Assets/insta.png"
 import yt from "../../../Assets/yt.png"
 import tweet from "../../../Assets/tweet.png"
 
+
 export default function Footer(){
     return(
         <footer className="bg-black font-['Helvetica Neue'] text-white px-6 py-8 md:px-10 lg:px-16">
