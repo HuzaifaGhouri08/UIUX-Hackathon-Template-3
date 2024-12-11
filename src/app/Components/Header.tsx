@@ -22,7 +22,7 @@ export default function Header() {
       </p>
     </div>
 
-    <nav className="text-xs sm:text-sm lg:text-base space-x-2 sm:space-x-2 text-black font-medium flex items-center">
+    <nav className="text-xs sm:text-sm lg:text-sm space-x-2 sm:space-x-2 text-black font-medium flex items-center">
       <Link href="/Find" className="hover:underline">
         Find a Store
       </Link>
