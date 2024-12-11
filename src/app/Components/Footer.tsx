@@ -37,7 +37,7 @@ export default function Footer(){
                 
 
                 
-                <ul className="flex gap-4  sm:mt-[12%]">
+                <ul className="flex justify-center gap-4  sm:mt-[12%]">
                     <li><Image src={tweet} alt="tweet" /></li>
                     <li><Image src={fb} alt="fb" /></li>
                     <li><Image src={yt} alt="yt" /></li>
@@ -47,11 +47,11 @@ export default function Footer(){
 
 <div className="sm:flex sm:items-center justify-between ">
 <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
-        <div className="flex items-center mt-4">
+        <div className="flex justify-center items-center mt-4">
             <Image src={location} alt="pak" className="w-6 h-5"/>
             <p className="text-white text-[14px]">Pakistan</p>
         </div>
-        <p className="text-[#7E7E7E] text-[12px] mt-2 sm:mt-4">&copy; 2024 Nike,Inc. All Rights Reserved</p>
+        <p className="text-[#7E7E7E] text-[12px] mt-2 sm:mt-4">&copy; 2024 Huzaifa Ghouri. All Rights Reserved</p>
         </div>
         <ul className="text-[#7E7E7E] text-[11px] flex mt-2 gap-4 sm:text-[12px] sm:mt-4">
             <li>Guides</li>
